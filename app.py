@@ -18,7 +18,7 @@ prompt = st.chat_input("Ask SymptomScout")
 
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
-API_KEY = "AIzaSyAWfOaA_zYrilK7uQeuC3Mh0552PaoMRzo"  
+API_KEY = ""  
 
 
 def get_gemini_response(user_input):
