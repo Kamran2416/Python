@@ -1,0 +1,21 @@
+.Nav a{
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.content {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+
+.block {
+    height: 250px;
+    width: 200px;
+    background-color: aquamarine;
+    float: left;
+    padding: 20px;
+    border: 102px solid#ffffff;
+    overflow: hidden;
+}
