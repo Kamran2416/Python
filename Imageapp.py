@@ -16,7 +16,7 @@ prompt = st.chat_input("Ask SymptomScout")
 uploaded_image = st.file_uploader("Upload an image (optional)", type=["jpg", "jpeg", "png"])
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
-API_KEY = "AIzaSyAWfOaA_zYrilK7uQeuC3Mh0552PaoMRzo"
+API_KEY = ""
 
 def encode_image(image_file):
     return base64.b64encode(image_file.read()).decode('utf-8')
